@@ -3,6 +3,7 @@
 Password manager on Google Sheets that can save passwords encrypted with a shared secret key. Encryption is done on the client side.
 
 Let’s get started
+
 Step 1 - Create a Google Sheet
 This could be the simplest of them all. Simply start a new Google Sheet. Start a fresh blank spreadsheet at sheets.google.com. 
 
