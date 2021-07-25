@@ -88,29 +88,20 @@ If there are no errors, the password is encrypted with the secret key (shared se
 
 The password is encrypted using SJCL and upon encrypting a string with a key, it outputs a JSON object:
 
-{
 
+    {
   "iv": "YfYlmYRzJBfo0xFGUNQ8Fg==",
-  
   "v": 1,
-  
   "iter": 10000,
-  
   "ks": 128,
-  
   "ts": 64,
-  
   "mode": "ccm",
-  
   "adata": "",
-  
   "cipher": "aes",
-  
   "salt": "s0McGyx/dmQ=",
-  
   "ct": "Xit1P9/DeedTmGf3WZBT4V+HNHIM3jtV0K8="
-  
 }
+
 
 This object is base64 encoded and saved into the password column.
 
